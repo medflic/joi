@@ -2343,6 +2343,7 @@ declare namespace Joi {
          */
         trace(...args: any[]): any;
         untrace(...args: any[]): any;
+        validate(schema: Joi.Schema, data: any, options: any): any; 
     }
 }
 
